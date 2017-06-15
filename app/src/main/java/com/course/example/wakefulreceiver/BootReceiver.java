@@ -20,7 +20,7 @@ public class BootReceiver extends WakefulBroadcastReceiver {
 	@Override
 	public void onReceive(Context context, Intent intent) {
 
-        Log.e("RECEIVER", "starting WalefulService");
+        Log.e("RECEIVER", "starting WakefulService");
         Intent service = new Intent(context, TorpedoService.class);
         startWakefulService(context, service);
 
