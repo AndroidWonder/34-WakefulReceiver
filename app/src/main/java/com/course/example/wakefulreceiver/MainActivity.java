@@ -14,7 +14,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         Log.e("RECEIVER", "Activity Started");
-        Toast.makeText(this, "Activity Started", Toast.LENGTH_LONG);
+        Toast.makeText(this, "Activity Started", Toast.LENGTH_LONG).show();
         Intent intent = new Intent("TRIGGER_RECEIVER");
         sendBroadcast(intent);
 
