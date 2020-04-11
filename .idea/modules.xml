@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/34-WakefulReceiver.iml" filepath="$PROJECT_DIR$/34-WakefulReceiver.iml" />
-      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/34-WakefulReceiver.iml" filepath="$PROJECT_DIR$/34-WakefulReceiver.iml" group="34-WakefulReceiver" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" group="34-WakefulReceiver/app" />
     </modules>
   </component>
 </project>
